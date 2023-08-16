@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     password.setError("Min. 6 Char Password Required");
                 }
                 else {
-                    System.out.println("Login Successfully " + email.getText().toString() + password.getText().toString());
+                    System.out.println("Signin Successfully " + email.getText().toString() + password.getText().toString());
                     Toast.makeText(MainActivity.this, "Login Successfully", Toast.LENGTH_LONG).show();
                     Snackbar.make(view, "Login Successfully", Snackbar.LENGTH_SHORT).show();
                 }
