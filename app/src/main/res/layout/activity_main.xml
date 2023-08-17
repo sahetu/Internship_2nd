@@ -69,5 +69,16 @@
         android:layout_below="@id/main_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/main_signup"
+            android:backgroundTint="#2BC990"
+            android:text="Signup"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_below="@id/main_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
     </RelativeLayout>
 </ScrollView>
